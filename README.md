@@ -42,7 +42,14 @@
 
 <table>
 <tr>
-<td width="58%">
+<td width="38%" align="center">
+
+<img src="assets/popeye-avatar.png" width="180" alt="Popeye — the quiet architect" />
+
+<div align="center"><sub><i>the quiet architect</i></sub></div>
+
+</td>
+<td width="62%">
 
 ### `the seed`
 
@@ -52,18 +59,23 @@ Most engineers build machines. I grow systems.
 
 My philosophy is borrowed from a cartoon sailor who taught me something serious: **strength comes from what you put in.** Popeye's spinach wasn't magic — it was fuel, ready when it mattered. For me, **code is the spinach.** The raw catalyst that turns an ordinary founder into a force of nature.
 
+So I keep him around — not as a mascot, but as a quiet **architect**. A sage with a pipe and a basket of greens, building slowly, deliberately, intentionally. He reminds me that the right leverage compounds. The garden grows.
+
 My logo says it quietly: two blades overlapping — one **teal** (the engineering), one **green** (the growth). The intersection is where the magic happens. Where digital meets organic.
-
-</td>
-<td width="42%" align="center">
-
-<img src="assets/coding-animation.gif" width="100%" alt="cultivating code" />
-
-<div align="center"><sub><i>fuel for strength — the garden grows</i></sub></div>
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+<img src="assets/coding-animation.html" width="0" height="0" style="display:none" alt="" />
+<!-- GitHub doesn't render <iframe> or <html> in README — so we embed the GIF still, and link the live HTML animation below. -->
+<img src="assets/coding-animation.gif" width="80%" alt="cultivating code" />
+
+<sub><i>fuel for strength — the garden grows</i> · <a href="assets/coding-animation.html">▶ view the live 5-second HTML animation</a></sub>
+
+</div>
 
 ---
 
@@ -234,6 +246,14 @@ An evolving studio shipping developer-grade open source and AI-native products. 
 <h3 align="center"><code>an open gate</code></h3>
 
 <p align="center"><i>The gate at the edge of the garden is open. Walk in.</i></p>
+
+<div align="center">
+
+<img src="assets/open-gate.jpg" width="70%" alt="Popeye welcomes you through the gate" />
+
+</div>
+
+<br/>
 
 <table>
 <tr>

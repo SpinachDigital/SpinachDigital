@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spinach Digital — The Quiet Architect</title>
+<style>
+:root{--paper:#FAFAF7;--ink:#202629;--muted:#6D7A75;--line:#DCE3DC;--teal:#004B63;--green:#4CAF50;--sage:#9BB39E;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.03;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.6'/%3E%3C/svg%3E")}
+header,main,footer{width:min(1320px,calc(100% - 48px));margin:auto}
+header{padding:70px 0 48px;display:grid;grid-template-columns:1fr auto;gap:28px;align-items:end;border-bottom:1px solid var(--line)}
+.eyebrow{font:600 12px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);margin-bottom:18px}.title{font:500 clamp(42px,7vw,88px)/.96 Georgia,serif;letter-spacing:-.04em;margin:0;max-width:860px}.title i{font-weight:400;color:var(--green)}
+.summary{max-width:430px;color:var(--muted);font-size:15px;line-height:1.65;margin:24px 0 0}.palette{display:flex;gap:10px;align-items:center}.swatch{width:42px;height:42px;border-radius:50%;border:6px solid var(--paper);outline:1px solid var(--line);box-shadow:0 8px 24px #35534414}.swatch:nth-child(1){background:var(--teal)}.swatch:nth-child(2){background:var(--green)}.swatch:nth-child(3){background:var(--sage)}.swatch:nth-child(4){background:var(--ink)}
+main{padding:56px 0 84px}.card{background:#fff;border:1px solid var(--line);border-radius:24px;overflow:hidden;margin:0 0 32px;box-shadow:0 20px 70px rgba(47,73,62,.06)}.visual{background:var(--paper);display:grid;place-items:center}.visual img{display:block;width:100%;height:auto}.copy{display:flex;justify-content:space-between;gap:32px;align-items:flex-start;padding:24px 26px 27px;border-top:1px solid var(--line)}.num{font:600 11px/1 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--green);letter-spacing:.14em}.copy h2{font:500 24px/1.15 Georgia,serif;margin:6px 0 5px}.copy p{margin:0;color:var(--muted);font-size:13px;line-height:1.5}.download{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);color:var(--ink);text-decoration:none;border-radius:999px;padding:10px 14px;font-size:12px;font-weight:650;white-space:nowrap;background:var(--paper)}.download:hover{border-color:var(--green);color:var(--teal)}
+.motion-frame{width:100%;aspect-ratio:16/9;border:0;display:block;background:var(--paper)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:32px}.grid .card{margin:0}.seal .visual{padding:7%;}.seal img{border-radius:50%}.epilogue{margin-top:32px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:15px}.tag{font:600 10px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em;color:var(--teal);border:1px solid var(--line);padding:7px 9px;border-radius:999px;background:#FAFAF7}
+footer{border-top:1px solid var(--line);padding:25px 0 48px;display:flex;justify-content:space-between;color:var(--muted);font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+@media(max-width:820px){header{grid-template-columns:1fr}.palette{justify-content:flex-start}.grid{grid-template-columns:1fr}.copy{flex-direction:column}.download{align-self:flex-start}header,main,footer{width:min(100% - 28px,1320px)}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <div class="eyebrow">Spinach Digital · Visual System 01</div>
+    <h1 class="title">The Quiet <i>Architect</i></h1>
+    <p class="summary">Popeye reimagined as a calm founder-craftsman mascot—editorial, restrained, warmly architectural, and anchored by one knowing spinach-leaf gesture.</p>
+  </div>
+  <div class="palette" aria-label="Brand palette"><i class="swatch"></i><i class="swatch"></i><i class="swatch"></i><i class="swatch"></i></div>
+</header>
+<main>
+  <section class="card">
+    <div class="visual"><img src="01-hero-architect-offers-a-leaf.png" alt="Popeye as the Quiet Architect offers a spinach leaf beside a sculptural seedling"></div>
+    <div class="copy"><div><span class="num">01 / HERO</span><h2>The Architect Offers a Leaf</h2><p>16:9 editorial hero · warm morning light · translucent leaf gesture.</p><div class="meta"><span class="tag">1600 × 900</span><span class="tag">PNG</span><span class="tag">NO LOGO</span></div></div><a class="download" href="01-hero-architect-offers-a-leaf.png" download>Download PNG ↓</a></div>
+  </section>
+
+  <section class="card">
+    <div class="visual"><iframe class="motion-frame" src="02-coding-animation.html" title="The Architect's Counterpart animation"></iframe></div>
+    <div class="copy"><div><span class="num">02 / MOTION</span><h2>The Architect’s Counterpart</h2><p>Responsive, standalone HTML/CSS/SVG · seamless five-second loop · reduced-motion aware.</p><div class="meta"><span class="tag">16:9</span><span class="tag">5S LOOP</span><span class="tag">ZERO DEPENDENCIES</span></div></div><a class="download" href="02-coding-animation.html" download>Download HTML ↓</a></div>
+  </section>
+
+  <div class="grid">
+    <section class="card">
+      <div class="visual"><img src="03-avatar-quiet-architect.png" alt="Editorial portrait of Popeye as the Quiet Architect presenting a spinach leaf"></div>
+      <div class="copy"><div><span class="num">03 / AVATAR</span><h2>The Quiet Architect</h2><p>Square Popeye editorial portrait for bios, author cards, and sign-offs.</p><div class="meta"><span class="tag">1:1</span><span class="tag">PNG</span></div></div><a class="download" href="03-avatar-quiet-architect.png" download>PNG ↓</a></div>
+    </section>
+    <section class="card seal">
+      <div class="visual"><img src="04-maker-mark-architects-seal.png" alt="The Architect's Garden circular maker mark"></div>
+      <div class="copy"><div><span class="num">04 / MAKER MARK</span><h2>The Architect’s Seal</h2><p>Exact live typography in scalable SVG, plus a 1200-pixel PNG.</p><div class="meta"><span class="tag">SVG</span><span class="tag">PNG</span><span class="tag">1:1</span></div></div><div><a class="download" href="04-maker-mark-architects-seal.svg" download>SVG ↓</a></div></div>
+    </section>
+  </div>
+
+  <section class="card epilogue">
+    <div class="visual"><img src="05-epilogue-open-gate.png" alt="Popeye as the Quiet Architect welcomes the viewer through an open garden gate"></div>
+    <div class="copy"><div><span class="num">05 / EPILOGUE</span><h2>The Open Gate</h2><p>4:3 Popeye contact-section image · afternoon light · generous editorial negative space.</p><div class="meta"><span class="tag">4:3</span><span class="tag">PNG</span><span class="tag">CONTACT</span></div></div><a class="download" href="05-epilogue-open-gate.png" download>Download PNG ↓</a></div>
+  </section>
+</main>
+<footer><span>Spinach Digital</span><span>The Quiet Architect · Asset Set</span></footer>
+</body>
+</html>

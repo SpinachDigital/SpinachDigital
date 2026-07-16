@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">The Architect's Seal</title>
+  <desc id="desc">A circular Spinach Digital maker mark showing Popeye as a refined founder-craftsman presenting a spinach leaf.</desc>
+  <rect width="1200" height="1200" fill="#FAFAF7"/>
+
+  <!-- architectural stamp rings -->
+  <circle cx="600" cy="600" r="420" fill="#FAFAF7" fill-opacity="0" stroke="#202629" stroke-width="4"/>
+  <circle cx="600" cy="600" r="388" fill="#FAFAF7" fill-opacity="0" stroke="#202629" stroke-width="1.5" opacity=".35"/>
+  <circle cx="600" cy="600" r="314" fill="#FAFAF7" fill-opacity="0" stroke="#9BB39E" stroke-width="1" opacity=".36" stroke-dasharray="2 12"/>
+
+  <!-- curved title, individually positioned for exact cross-renderer output -->
+  <g fill="#202629" font-family="Georgia, 'Times New Roman', serif" font-size="29">
+    <text x="0" y="0" transform="translate(306.5 409.4) rotate(303.0)" text-anchor="middle">T</text>
+    <text x="0" y="0" transform="translate(325.8 382.5) rotate(308.4)" text-anchor="middle">H</text>
+    <text x="0" y="0" transform="translate(347.6 357.5) rotate(313.9)" text-anchor="middle">E</text>
+    <text x="0" y="0" transform="translate(397.8 314.3) rotate(324.7)" text-anchor="middle">A</text>
+    <text x="0" y="0" transform="translate(425.8 296.5) rotate(330.1)" text-anchor="middle">R</text>
+    <text x="0" y="0" transform="translate(455.3 281.3) rotate(335.6)" text-anchor="middle">C</text>
+    <text x="0" y="0" transform="translate(486.1 269.1) rotate(341.0)" text-anchor="middle">H</text>
+    <text x="0" y="0" transform="translate(517.9 259.8) rotate(346.4)" text-anchor="middle">I</text>
+    <text x="0" y="0" transform="translate(550.4 253.5) rotate(351.9)" text-anchor="middle">T</text>
+    <text x="0" y="0" transform="translate(583.4 250.4) rotate(357.3)" text-anchor="middle">E</text>
+    <text x="0" y="0" transform="translate(616.6 250.4) rotate(362.7)" text-anchor="middle">C</text>
+    <text x="0" y="0" transform="translate(649.6 253.5) rotate(368.1)" text-anchor="middle">T</text>
+    <text x="0" y="0" transform="translate(682.1 259.8) rotate(373.6)" text-anchor="middle">'</text>
+    <text x="0" y="0" transform="translate(713.9 269.1) rotate(379.0)" text-anchor="middle">S</text>
+    <text x="0" y="0" transform="translate(774.2 296.5) rotate(389.9)" text-anchor="middle">G</text>
+    <text x="0" y="0" transform="translate(802.2 314.3) rotate(395.3)" text-anchor="middle">A</text>
+    <text x="0" y="0" transform="translate(828.3 334.7) rotate(400.7)" text-anchor="middle">R</text>
+    <text x="0" y="0" transform="translate(852.4 357.5) rotate(406.1)" text-anchor="middle">D</text>
+    <text x="0" y="0" transform="translate(874.2 382.5) rotate(411.6)" text-anchor="middle">E</text>
+    <text x="0" y="0" transform="translate(893.5 409.4) rotate(417.0)" text-anchor="middle">N</text>
+  </g>
+
+  <!-- small registration ticks -->
+  <g stroke="#202629" stroke-width="3">
+    <path d="M600 164v32M600 1004v32M164 600h32M1004 600h32"/>
+  </g>
+  <g fill="#202629">
+    <circle cx="268" cy="823" r="4"/><circle cx="932" cy="823" r="4"/>
+  </g>
+
+  <!-- refined flat profile silhouette -->
+  <g transform="translate(0 2)">
+    <!-- shoulders and peacoat -->
+    <path d="M407 706 C450 657 509 639 564 639 C620 639 675 655 714 701 L746 769 L376 769 Z" fill="#34464A"/>
+    <path d="M491 650 L557 713 L613 646 L654 664 L600 741 L531 741 L451 669 Z" fill="#202629" opacity=".42"/>
+    <path d="M540 646 L559 705 L580 646 Z" fill="#FAFAF7"/>
+    <!-- neck -->
+    <path d="M520 596 L601 593 L609 660 Q565 682 520 651 Z" fill="#34464A"/>
+    <!-- Popeye's sailor cap and strong profile -->
+    <path d="M486 397 Q515 326 604 320 Q673 320 708 373 Q672 396 595 399 Q530 402 486 397Z" fill="#FAFAF7" stroke="#34464A" stroke-width="9"/>
+    <path d="M488 393 Q565 375 708 373 L701 405 Q587 428 493 411Z" fill="#9BB39E" stroke="#34464A" stroke-width="9"/>
+    <path d="M472 469 C476 397 526 360 596 359 C660 359 704 391 711 450 C712 466 707 477 715 487 L749 508 C759 515 755 529 745 534 L715 547 C713 576 696 614 661 635 C616 661 553 642 521 604 C488 565 469 523 472 469 Z" fill="#34464A"/>
+    <!-- cap redraw above the silhouette for a crisp stamped read -->
+    <path d="M482 401 Q511 321 602 314 Q675 315 713 370 Q682 394 598 402 Q527 409 482 401Z" fill="#DDE5E0" stroke="#34464A" stroke-width="10"/>
+    <path d="M485 394 Q563 375 713 370 L705 407 Q584 430 489 413Z" fill="#9BB39E" stroke="#34464A" stroke-width="9"/>
+    <!-- ear cut and facial relief -->
+    <path d="M490 502 C474 485 471 455 492 447 C512 440 527 459 524 478 C521 497 508 510 490 502 Z" fill="#FAFAF7" opacity=".75"/>
+    <path d="M681 484 C693 475 705 477 714 487 L742 508 L708 512" fill="#FAFAF7" fill-opacity="0" stroke="#FAFAF7" stroke-width="7" stroke-linecap="round" opacity=".72"/>
+    <path d="M692 554 Q716 566 735 548" fill="#FAFAF7" fill-opacity="0" stroke="#FAFAF7" stroke-width="6" stroke-linecap="round" opacity=".78"/>
+    <path d="M676 594 Q701 611 718 582" fill="#FAFAF7" fill-opacity="0" stroke="#FAFAF7" stroke-width="5" stroke-linecap="round" opacity=".52"/>
+    <path d="M644 461 Q668 445 691 464" fill="#FAFAF7" fill-opacity="0" stroke="#FAFAF7" stroke-width="8" stroke-linecap="round" opacity=".78"/>
+    <!-- monocle-like glasses and Popeye squint -->
+    <circle cx="666" cy="475" r="30" fill="#FAFAF7" fill-opacity="0" stroke="#FAFAF7" stroke-width="7" opacity=".8"/>
+    <path d="M648 477 Q666 490 684 471" fill="#FAFAF7" fill-opacity="0" stroke="#FAFAF7" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+    <path d="M637 474 H610 M696 474 L716 481" stroke="#FAFAF7" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+    <!-- iconic pipe -->
+    <path d="M729 550 Q755 551 776 570" fill="#FAFAF7" fill-opacity="0" stroke="#202629" stroke-width="13" stroke-linecap="round"/>
+    <path d="M774 556 L812 556 L804 600 Q783 616 766 593Z" fill="#202629"/>
+    <path d="M778 565 H807" stroke="#FAFAF7" stroke-width="4" opacity=".78"/>
+    <!-- anchor pin -->
+    <g transform="translate(647 700) scale(.72)" fill="#FAFAF7" fill-opacity="0" stroke="#FAFAF7" stroke-width="5" stroke-linecap="round">
+      <circle cx="0" cy="-13" r="7"/><path d="M0 -6 V28 M-15 4 H15 M-21 16 Q0 40 21 16"/>
+    </g>
+  </g>
+
+  <!-- poised hand holding a single leaf -->
+  <g>
+    <path d="M743 632 C773 610 794 575 813 544 C820 531 840 537 835 552 L816 600 C832 581 847 562 859 543 C867 530 885 541 878 555 L849 611 C838 634 823 652 800 670 L773 688 Z" fill="#34464A"/>
+    <path d="M813 544 C828 518 840 488 839 463" fill="#FAFAF7" fill-opacity="0" stroke="#34464A" stroke-width="15" stroke-linecap="round"/>
+    <path d="M839 470 C799 450 794 410 831 377 C866 401 875 445 839 470 Z" fill="#4CAF50" stroke="#202629" stroke-width="4"/>
+    <path d="M838 463 L833 390 M836 429 L817 411 M837 441 L856 420" fill="#FAFAF7" fill-opacity="0" stroke="#FAFAF7" stroke-width="3" stroke-linecap="round" opacity=".88"/>
+  </g>
+
+  <!-- exact wordmark -->
+  <g fill="#202629" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="600">
+    <text x="384" y="845" text-anchor="middle">S</text><text x="411" y="845" text-anchor="middle">P</text>
+    <text x="438" y="845" text-anchor="middle">I</text><text x="465" y="845" text-anchor="middle">N</text>
+    <text x="492" y="845" text-anchor="middle">A</text><text x="519" y="845" text-anchor="middle">C</text>
+    <text x="546" y="845" text-anchor="middle">H</text><text x="600" y="845" text-anchor="middle">·</text>
+    <text x="654" y="845" text-anchor="middle">D</text><text x="681" y="845" text-anchor="middle">I</text>
+    <text x="708" y="845" text-anchor="middle">G</text><text x="735" y="845" text-anchor="middle">I</text>
+    <text x="762" y="845" text-anchor="middle">T</text><text x="789" y="845" text-anchor="middle">A</text>
+    <text x="816" y="845" text-anchor="middle">L</text>
+  </g>
+  <path d="M420 878 H780" stroke="#9BB39E" stroke-width="2"/>
+</svg>
